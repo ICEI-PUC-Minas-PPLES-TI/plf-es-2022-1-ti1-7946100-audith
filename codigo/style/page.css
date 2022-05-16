@@ -3,18 +3,16 @@
 }
 
 html {
-    background: #85e368;
+   
     max-height: 100%;
     max-width: 100%;
     min-height: 300px;
     min-width: 300px;
 }
-
-
-main {
-    background-image: radial-gradient(circle,  rgb(62, 162, 65),#b2fa8b, #74ec64);
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(0, 13, 36) 10%, rgba(9,121,62,1) 55%, rgb(0, 97, 52) 90%);
 }
-
 .scopo-conteudo-corpo{
     text-align: center;
     margin: auto 1.5% auto 1.5%;
@@ -26,34 +24,46 @@ main {
 .scopo-conteudo-text{
     text-align: center;
 }
+hr{
+    color: rgb(94, 255, 0) !important;
+    border-radius: 10px;
+}
 
 h1{
+    color: white;
+
     font-family:'Courier New', Courier, monospace;
     font-variant:small-caps;
     font-display:inherit;
 }
 
 h2 {
-    color: rgb(32, 57, 41);
+    color: white;
+
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h3 {
+    color: white;
+
     font-family:'Courier New', Courier, monospace;
     font-variant:small-caps;
     font-display:inherit;
 }
 
 h6 {
-    color: rgb(34, 58, 34);
+    color: white;
+
 }
 
 h5 {
-    color: rgb(34, 58, 34);
+    color: white;
+
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h4 {
-    color: rgb(34, 58, 34);
+    color: white;
+
 }
 
 a {
@@ -68,14 +78,14 @@ p {
 .titulo{
     font-family: cursive;
 }
-
+.navbar{
+    background-color: rgba(12, 199, 121, 0.156);
+}
 .labels-nav{
     font-family: Courier, "Lucida Console", monospace;
 }
 
-.header {
-    background: #141414;
-}
+
 
 img.navbar-brand {
     width: 150px;
@@ -108,21 +118,7 @@ img.navbar-brand {
     padding: 2%;
 }
 
-.card-arredondado{
-    border-radius: 6%;
-    background-color: lightgreen;
-    border-style: solid;
-    text-align: center;
-}
 
-.form-format-login{
-    width:40%;
-    
-}
-
-.arredondar{
-    border-radius:20%;
-}
 
 .img-info{
     height:85%; 
@@ -143,12 +139,13 @@ img.navbar-brand {
 .textorodape {
     margin-top: 2.5%;
     align-self: center;
-    color: rgb(34, 58, 34);
+    color: rgb(252, 252, 252);
 }
 
 .footer1{
-    background: #74ec64;
+    background: #18181856;
 }
+
 .text-para-esquerda{
     text-align: right;
 }
