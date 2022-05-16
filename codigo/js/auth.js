@@ -17,6 +17,7 @@ function processaFormLogin (e) {
                 icon: 'success',
                 title: `Logado Com sucesso \n Bem Vindo ao sistema ${username}`,
                 showConfirmButton: false,
+                timerProgressBar: true,
                 timer: 1500
             }
             swal.fire(parametrosAlert).then(()=>{
@@ -58,6 +59,7 @@ function salvaLogin (event) {
         icon: 'success',
         title: 'Usuário salvo com sucesso. Proceda com o login para',
         showConfirmButton: false,
+        timerProgressBar: true,
         timer: 1500
     }
     swal.fire(parametrosAlert).then(()=>{
