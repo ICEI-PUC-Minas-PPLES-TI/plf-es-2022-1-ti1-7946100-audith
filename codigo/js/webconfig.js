@@ -59,7 +59,15 @@ function initLoginApp () {
     if (!usuariosJSON) {  // Se NÃO há dados no localStorage
         
         // Informa sobre localStorage vazio e e que serão carregados os dados iniciais
-        alert('Dados de usuários não encontrados no localStorage. \n -----> Fazendo carga inicial.');
+        let parametrosAlert ={
+            position: 'top-end',
+            icon: 'info',
+            title: `Dados de usuários não encontrados no localStorage. \n -----> Fazendo carga inicial.`,
+            showConfirmButton: false,
+            timer: 2500,
+            toast:true
+        }
+        swal.fire(parametrosAlert)
 
         // Copia os dados iniciais para o banco de dados 
         db_usuarios = dadosIniciais;
