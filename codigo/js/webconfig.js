@@ -62,10 +62,11 @@ function initLoginApp () {
         let parametrosAlert ={
             position: 'top-end',
             icon: 'info',
-            title: `Dados de usuários não encontrados no localStorage. \n -----> Fazendo carga inicial.`,
+            title: `Dados de usuários não encontrados no localStorage. \n Fazendo carga inicial.`,
             showConfirmButton: false,
             timer: 2500,
-            toast:true
+            toast:true,
+            timerProgressBar: true,
         }
         swal.fire(parametrosAlert)
 
