@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding-bottom:120px;
   }
 
     h1{
@@ -105,6 +106,13 @@ body {
     width: 40px;
   }
   
+  .scopo-conteudo-corpo-login{
+    text-align: center;
+    margin: auto 1.5% auto 1.5%;
+    width:auto;
+    max-width:100%;
+    padding: 0.5em 0.5em 1000px 0.5em;
+}
   
   
   .what {
@@ -165,6 +173,10 @@ body {
     border-style:outset;
     border-width: 2px 6px 4px 3px;
     border-color:#74ec64;
+  }
+
+  input{
+    text-align:center;
   }
   
   .bar {
