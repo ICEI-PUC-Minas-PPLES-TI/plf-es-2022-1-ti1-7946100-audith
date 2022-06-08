@@ -25,7 +25,6 @@
      <!--configuração title-->   
      <title>AUDITH</title>
      <link rel="icon" type="img/png" href="/image/logo.png" />
-
 </head>
 <body>
     <header class="header">
@@ -88,24 +87,30 @@
             <div class="col-md-8">
                 <h1 >Traduzir</h1>
                 <hr class="w-100">
-                <label>Digite o que deseja traduzir:</label>
-                <textarea type="text" name="" id="traduzir" class="form-control w-75" rows="10"></textarea>
+                <div class="row">
+                    <div class="col-12 col-xl-8">
+                        <label>Digite o que deseja traduzir:</label>
+                        <textarea type="text" name="" id="traduzir" class="form-control" rows="10"></textarea>
+                        <button type="button" class="btn btn-block w-100 btn-info my-3" id="btnTraduzir" onclick="traduzir()">Traduzir</button>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                        <div vw class="enabled float-end">
+                            <div vw-access-button class="active"></div>
+                            <div vw-plugin-wrapper class="">
+                            <div class="vw-plugin-top-wrapper w-100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
                 <h1 >Como usar</h1>
                 <hr class="w-100">
                 <ol>
-                    <li>Clique no botão azul no canto superio direito</li>
+                    <li>Clique no botão de sinais</li>
                     <li>Digite o que deseja traduzir no campo indicado</li>
-                    <li>Clique na box preto para traduzir</li>
+                    <li>Clique no botão azul para traduzir</li>
                 </ol>
-            </div>
-        </div>
-        
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper class="">
-            <div class="vw-plugin-top-wrapper w-100"></div>
             </div>
         </div>
     </main>
@@ -134,8 +139,21 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <!-- JS -->
-    <script src="/js/page.js"></script>
+    <script src="js/page.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function traduzir(){
+            let texto = $("#traduzir").val()
+            if(!texto) return
+            window.plugin.player.translate(texto)
+        }
+
+        $("div[vw-access-button]").click(() => {
+            setTimeout(() => {
+                $("#btnTraduzir").html("Traduzir")
+            }, 1000)
+        })
+    </script>
 </body>
 
 </html>
