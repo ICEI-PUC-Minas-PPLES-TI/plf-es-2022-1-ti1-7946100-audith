@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="style/page.css">
-    <link rel="stylesheet" href="style/libras.css">
+    <link rel="stylesheet" href="../style/page.css">
+    <link rel="stylesheet" href="../style/libras.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
     integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
@@ -24,13 +24,13 @@
 
      <!--configuração title-->   
      <title>AUDITH</title>
-     <link rel="icon" type="img/png" href="/image/logo.png" />
+     <link rel="icon" type="img/png" href="../image/logo.png" />
 </head>
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <img class="navbar-brand" style ='max-height: 80px' src="image/deaf2.png" alt="logo">
+                <img class="navbar-brand" style ='max-height: 80px' src="../image/deaf2.png" alt="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -39,27 +39,33 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto me-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active labels-nav" aria-current="page" href="#Home">
+                            <a class="nav-link active labels-nav" aria-current="page" href="home.html">
                                 <i class="fas fa-home" title="Inicio"></i>
                                 Inicio
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link labels-nav" href="#destaques">
+                            <a class="nav-link labels-nav" href="formulario_libras.html">
                                 <i class="fas fa-users" title="Cadastrar-se"></i>
-                                Cadastrar-se
+                                Cadastro aulas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link labels-nav" href="formulario_ongs.html">
+                                <i class="fas fa-users" title="Cadastrar-se"></i>
+                                Cadastro ONGs
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link labels-nav" href="libras.html">
-                                <i class="fas fa-sign-language" title="Aprender Libras"></i>
-                                Aprender Libras  
+                                <i class="fas fa-atlas" title="Traduzir"></i>
+                                Traduzir
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link labels-nav" href="#entrevistas">
-                                <i class="fas fa-atlas" title="Traduzir"></i>
-                                Traduzir
+                            <a class="nav-link labels-nav" href="#notfound404">
+                                <i class="fas fa-sign-language" title="Aprender Libras"></i>
+                                Aprender Libras  
                             </a>
                         </li>
                         <li class="nav-item">
@@ -91,7 +97,7 @@
                     <div class="col-12 col-xl-8">
                         <label>Digite o que deseja traduzir:</label>
                         <textarea type="text" name="" id="traduzir" class="form-control" rows="10"></textarea>
-                        <button type="button" class="btn btn-block w-100 btn-info my-3" id="btnTraduzir" onclick="traduzir()">Traduzir</button>
+                        <button type="button" class="btn btn-block w-100 my-3 btn-success" id="btnTraduzir" onclick="traduzir()">Traduzir</button>
                     </div>
                     <div class="col-12 col-xl-4">
                         <div vw class="enabled float-end">

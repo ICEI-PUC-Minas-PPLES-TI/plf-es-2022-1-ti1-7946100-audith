@@ -143,7 +143,8 @@ img.navbar-brand {
 }
 
 .footer1{
-    background: #18181856;
+    position: relative;
+    padding-top: 11.5%;
 }
 
 .text-para-esquerda{
