@@ -44,7 +44,7 @@ function materialClick(event) {
     }, 2000);
   }, 50);
   setTimeout(function() {
-    window.location.href = "/home.html";
+    window.location.href = "/views/home.html";
 }, 1800);
 
 }
