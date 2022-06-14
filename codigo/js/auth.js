@@ -21,7 +21,7 @@ function processaFormLogin (e) {
                 timer: 1500
             }
             swal.fire(parametrosAlert).then(()=>{
-                window.location.href = "/views/home.html"
+                window.location.href = "views/home.html"
             })
         }
         else { // Se login falhou, avisa ao usuário
