@@ -153,3 +153,22 @@ img.navbar-brand {
 .text-para-direita{
     text-align: left;
 }
+
+
+@media only screen and (max-width: 767px){
+    .img-info{
+        height:5%; 
+        min-height:5%;
+        width: 89%;
+        max-width: 75%;
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (min-width: 767px){
+    .img-info-conclusão{
+        max-height:100%;
+        max-width: 5%;
+        padding-bottom: -200px;
+    }
+}
