@@ -82,94 +82,84 @@
     </header>
 
     <section class="vh-100">
-        <div class="container py-5 h-100">
-            <div class="row d-flex justify-content-center align-items-center h-25 ">
-                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="container py-5">
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5 card-form-libras">
                     <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
-                    <div class="text-center">
-                        <h1 id="titulo">Cadastro aula de libras</h1>
-                        <p id="subtitulo">Complete suas informações</p>
+                    <div class="text-center mx-auto">
+                        <h1 id="">Cadastro aula de libras</h1>
+                        <p id="">Complete suas informações</p>
                         <br>
                     </div>
                     <!-- Início do formulário -->
+                
                     <form>
-
-                        <fieldset class="grupo">
-                            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
-                            <div class="campo">
-                                <label for="nome"><strong>Nome:</strong></label>
-                                <input type="text" name="nome" id="nome" required>
-                            </div>
-
-                            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
-                            <div class="campo">
-                                <label for="sobrenome"><strong>Sobrenome:</strong></label>
-                                <input type="text" name="sobrenome" id="sobrenome" required>
-                            </div>
-                        </fieldset> 
-
-                        <!-- Campo de email com-->
-                        <div class="campo">
-                            <label for="email"><strong>Email</strong></label>
-                            <input type="email" name="email" id="email" required>
+                        <div class="row">
+                        <div class="col-12 col-md-6 mb-2">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" name="nome" id="nome" class="form-group w-100" required>
                         </div>
-
-                        <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
-                        <div class="campo">
-                            <label><strong>Qual seu nível de conhecimento em libras ?</strong></label>
-                            <label>
-                                <input type="radio" name="devweb" value="nenhum" checked>nenhum
-                            </label>
-                            <label>
-                                <input type="radio" name="devweb" value="médio">médio
-                            </label>
-                            <label>
-                                <input type="radio" name="devweb" value="avançado">avançado
-                            </label>
+                        <div class="col-12 col-md-6 mb-2">
+                            <label for="sobrenome" class="form-label">Sobrenome:</label>
+                            <input type="text" name="sobrenome" id="sobrenome" class="form-group w-100" required>
                         </div>
-
-                        <!-- Campo de aula com 3 opções para escolha (select option) e css de classe "campo" -->
-                        <div class="campo">
-                            <label for="aulas"><strong>Quantas vezes na semana você pode participar das aulas?</strong></label>
-                            <select id="aulas" required>
-                            <option selected disabled value="">Selecione</option>
-                            <option>1</option>
-                            <option>2  a 3</option>
-                            <option>Todos os dias</option>
+                        <div class="col-12 mb-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" name="email" id="email" class="form-group w-100" required>
+                        </div>                                                     
+                        <div class="col-12 mb-2">
+                            <label for="aulas" class="form-label">Quantas vezes na semana você pode participar das aulas?</label>
+                            <select id="aulas" class="form-select" required>
+                                <option selected disabled value="">Selecione</option>
+                                <option>1</option>
+                                <option>2  a 3</option>
+                                <option>Todos os dias</option>
                             </select>
                         </div>
-
-                        <fieldset class="grupo">
-                            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
-                            <div id="check">
-                                <label><strong>Selecione a o meio virtual de comunicação que mais utiliza:</strong></label><br><br>
-                                <input type="checkbox" id="meiovirtual1" name="meio virtual1" value="Teams">
-                                <label for="tecnologia1"> Teams</label>
-                                <input type="checkbox" id="meiovirtual2" name="meiovirtual2" value="Whatsapp">
-                                <label for="tecnologia2"> Whatsapp</label>
-                                <input type="checkbox" id="meiovirtual3" name="meiovirtual3" value="Facebook">
-                                <label for="tecnologia3"> Facebook </label>
-                                <input type="checkbox" id="meiovirtual4" name="meiovirtual4" value="Google meet">
-                                <label for="tecnologia4"> Google meet</label>
-                                <input type="checkbox" id="meiovirtual5" name="meiovirtual5" value="Facetime">
-                                <label for="tecnologia5"> Facetime</label>
-                                
+                        <div class="col-12 col-md-8 mb-2">
+                            <label class="fw-bold form-label">Qual seu nível de conhecimento em libras ?</label>
+                            <div class="d-flex">
+                                <div class="d-flex me-4">
+                                    <input type="radio" name="devweb" value="n"  class="form-check-input"checked>
+                                    <label class="form-check-label mx-2">nenhum</label>
+                                </div>
+                                <div class="d-flex me-4">
+                                    <input type="radio" name="devweb" value="m" class="form-check-input">
+                                    <label class="form-check-label mx-2">Médio</label>
+                                </div>
+                                <div class="d-flex me-4">
+                                    <input type="radio" name="devweb" value="a" class="form-check-input">
+                                    <label class="form-check-label mx-2">avançado</label>
+                                </div>
                             </div>
-                        </fieldset>
-
-                        <!-- Caixa de texto -->
-                        <div class="campo">
+                        </div> 
+                    
+                        <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                        <div id="col-12 mb-2">
+                            <label class="form-label">Selecione a o meio virtual de comunicação que mais utiliza:</label><br>
+                            <input type="checkbox" id="meiovirtual1" name="meio virtual1" class="form-check-input" value="Teams">
+                            <label class="form-check-label" for="tecnologia1"> Teams</label>
+                            <input type="checkbox" id="meiovirtual2" name="meiovirtual2" value="Whatsapp" class="form-check-input">
+                            <label class="form-check-label" for="tecnologia2"> Whatsapp</label>
+                            <input type="checkbox" id="meiovirtual3" name="meiovirtual3" value="Facebook" class="form-check-input">
+                            <label class="form-check-label" for="tecnologia3"> Facebook </label>
+                            <input type="checkbox" id="meiovirtual4" name="meiovirtual4" value="Google meet" class="form-check-input">
+                            <label class="form-check-label" for="tecnologia4"> Google meet</label>
+                            <input type="checkbox" id="meiovirtual5" name="meiovirtual5" value="Facetime" class="form-check-input">
+                            <label class="form-check-label" for="tecnologia5"> Facetime</label>                                
+                        </div>
+                        <div class="col-12 mb-2">
                             <br>
-                            <label for="experiencia"><strong>Conte um pouco mais do porque você decidiu aprender libras: </strong></label>
-                            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                            <label for="experiencia">Conte um pouco mais do porque você decidiu aprender libras:</label>
+                            <textarea rows="6" class="w-100" id="experiencia" name="experiencia"></textarea>
                         </div>
-
-                        <!-- Botão para enviar o formulário -->
-                        <div>
-
-                            <button class="botao btn-success btn" type="submit" onsubmit="">Concluído</button>           
-                        </div>
-
+                        <div class="col-12 col-md-6 mb-2">                            
+                            <button class=" btn-success btn w-100" type="submit" onsubmit="">Concluído</button>           
+                        </div>    
+                        <div class="col-12 col-md-6 mb-2">                            
+                            <button class=" btn-danger btn w-100" type="submit" onsubmit="">Cancelar</button>           
+                        </div>                        
+                    </div>
                     </form>
                 </div>
             </div>
@@ -183,7 +173,7 @@
 
 
     <!-- Rodapé -->
-    <footer class="footer1">
+    <footer class="footer1 d-none d-md-block">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             <p class="textorodape">© 2022 Copyright: <b>AUDITH COMPANY</b>
             </p>

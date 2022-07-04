@@ -7,14 +7,14 @@
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
-    color: #380B61;
+    color: white;
     margin-left: 7%;
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
-    color: #380B61;
+    color: white;
     margin-left: 10%;
 } 
 
@@ -62,9 +62,9 @@ input, select, textarea, button {
 }
 
 /* Elementos de classe "campo" de tag <label> */
-.campo label {
+ label {
     margin-bottom: 0.2em;
-    color: #59429d;
+    color: white;
     display: block;
 }
 
@@ -114,4 +114,10 @@ fieldset.grupo .campo {
 /* Elementos de classe botão e de tag <select> */
 .botao, select{
     cursor: pointer;
+}
+.card-form-libras{
+        background-color: #0c0c0c75;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 1px rgba(255, 255, 255, 0.438);
 }

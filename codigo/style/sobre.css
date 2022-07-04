@@ -48,6 +48,7 @@ h3 {
     font-family:'Courier New', Courier, monospace;
     font-variant:small-caps;
     font-display:inherit;
+    text-align: center;
 }
 
 h6 {
@@ -94,7 +95,7 @@ img.navbar-brand {
 }
 
 .container {
-    text-align: justify;
+    text-align: center;
 }
 
 .container-info {
@@ -104,7 +105,7 @@ img.navbar-brand {
 .container-info {
         margin-top: 10%;
         padding-left: 10%;
-        margin-right: 18%;
+        margin-right: 30%;
         margin-bottom: 10%;
 }
 
@@ -147,8 +148,11 @@ img.navbar-brand {
 }
 
 .text-para-esquerda{
-    text-align: right;
+    text-align: center;
 }
 .text-para-direita{
-    text-align: left;
+    text-align: center;
+}
+ul > li {
+    color:white;    
 }
