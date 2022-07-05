@@ -11,6 +11,8 @@ const LOGIN_URL = "login.html";
 
 // Objeto para o banco de dados de usuários baseado em JSON
 var db_usuarios = {};
+var db_aulas= {};
+var db_ONGs= {};
 
 // Objeto para o usuário corrente
 var usuarioCorrente = {};
@@ -41,6 +43,23 @@ const dadosIniciais = {
         { "id": generateUUID (), "login": "user", "senha": "123", "nome": "Usuario Comum", "email": "user@abc.com"},
     ]
 };
+const dadosIniciaisOngs = {
+    ONGs: [
+        {  "nome" : "Instituto Adhara", "telefone" : "+55 (11) 97343-1931", "email" : "contato@institutoadhara.org.br", "cidade" : "Vila Santo Antônio", "categoria" : "Surdos", "site" : "http://institutoadhara.org.br"},
+    ]
+}
+const dadosIniciaisAulas = {
+    aulas: [
+        {
+            "nome": "Eduardo Augusto Brito ",
+            "sobrenome": "Augusto Brito ",
+            "email": "tzeduardo71@gmail.com",
+            "rangeAulas": "3",
+            "nivel": "n",
+            "meiocomunicacao": "facebook"
+        },
+    ]
+}
 
 
 // Inicializa o usuarioCorrente e banco de dados de usuários da aplicação de Login
@@ -77,7 +96,6 @@ function initLoginApp () {
         localStorage.setItem('db_usuarios', JSON.stringify (dadosIniciais));
     }
     else  {  // Se há dados no localStorage
-        
         // Converte a string JSON em objeto colocando no banco de dados baseado em JSON
         db_usuarios = JSON.parse(usuariosJSON);    
     }
@@ -125,12 +143,16 @@ function addUser (nome, login, senha, email) {
     let usuario = { "id": newId, "login": login, "senha": senha, "nome": nome, "email": email };
     
     // Inclui o novo usuario no banco de dados baseado em JSON
-    db_usuarios.usuarios.push (usuario);
+    db_usuarios.usuarios.push(usuario);
 
     // Salva o novo banco de dados com o novo usuário no localStorage
     localStorage.setItem('db_usuarios', JSON.stringify (db_usuarios));
 }
-
+function addONGs (ONG) {   
+    console.log(ONG)
+    db_ONGs.ONGs.push(ONG);
+    localStorage.setItem('db_ONGs', JSON.stringify (db_ONGs));
+}
 function setUserPass () {
 
 }

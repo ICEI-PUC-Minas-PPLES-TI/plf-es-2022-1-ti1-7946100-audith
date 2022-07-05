@@ -9,7 +9,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" 
     integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" 
     crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="../style/sweetalert2.min.css">
+    <script src="../js/sweetalert2.min.js"></script>
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -31,11 +32,11 @@
     
 </head>
 
-<body onload="init()">
+<body>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
-                <img class="navbar-brand" style ='max-height: 80px' src="../image/deaf2.png"" alt="logo">
+                <img class="navbar-brand" style ='max-height: 80px' src="../image/deaf2.png" alt="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -56,9 +57,21 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link labels-nav" href="aulas.html">
+                                <i class="fas fa-users" title="Cadastrar-se"></i>
+                                Aulas
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link labels-nav" href="formulario_ongs.html">
                                 <i class="fas fa-users" title="Cadastrar-se"></i>
                                 Cadastro ONGs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link labels-nav" href="ongs.html">
+                                <i class="fas fa-users" title="Cadastrar-se"></i>
+                                ONGs
                             </a>
                         </li>
                         <li class="nav-item">
@@ -74,11 +87,16 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link labels-nav" href="#help">
-                                <i class="fas fa-atlas" title="Help">Help</i>
+                            <a class="nav-link labels-nav" href="sobre.html">
+                                <i class="fas fa-sign-language" title="Sobre"></i>
+                                Sobre
                             </a>
                         </li>
                     </ul>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-user"></i> 
+                        <span id="user"></span>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -92,7 +110,6 @@
             </div>
         </div>
 
-        <form id="form-contato">
             <div class="form-group row">
                 <div class="col-sm-4">
                     <label for="inputId">Id</label>
@@ -136,97 +153,20 @@
             </div>
             <div class="form-group row">
                 <div class="col-sm-12">
-                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
-                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form" onclick="limparForm()">
+                    <button class="btn btn-success" id="btnInsert" onClick="ongs.funcoes.cadastrarONGs()">Inserir</button>
+                    <button class="btn btn-secondary" id="btnClear" onClick="ongs.funcoes.limparForm()">Limpar Form</button>
+                    <a href="ongs.html" class="btn btn-danger" id="btnClear" >Ver ONGs</a>
                 </div>
             </div>
-        </form>
 
            
         </div>
     </div>
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="app.js"></script>
-    <script>
-        function exibeContatos() {
-            // Remove todas as linhas do corpo da tabela
-            $("#table-contatos").html("");
-
-            // Popula a tabela com os registros do banco de dados
-            for (i = 0; i < db.data.length; i++) {
-                let contato = db.data[i];    
-                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
-                                                <td>${contato.nome}</td>
-                                                <td>${contato.telefone}</td>
-                                                <td>${contato.email}</td>
-                                                <td>${contato.cidade}</td>
-                                                <td>${contato.categoria}</td>
-                                                <td>${contato.website}</td>
-                                            </tr>`);
-            }
-        }
-
-        function init() {
-            // Adiciona funções para tratar os eventos 
-            $("#btnInsert").click(function () {
-                // Verfica se o formulário está preenchido corretamente
-                if (!$('#form-contato')[0].checkValidity()) {
-                    displayMessage("Preencha o formulário corretamente.");
-                    return;
-                }
-
-                // Obtem os valores dos campos do formulário
-                let campoNome = $("#inputNome").val();
-                let campoTelefone = $("#inputTelefone").val();
-                let campoEmail = $('#inputEmail').val();
-                let campoCidade = $("#inputCidade").val();
-                let campoCategoria = $('#inputCategoria').val();
-                let campoSite = $('#inputSite').val();
-                let contato = { nome: campoNome, 
-                    telefone: campoTelefone, 
-                    email: campoEmail, 
-                    cidade: campoCidade, 
-                    categoria: campoCategoria,
-                    website: campoSite };
-
-                insertContato(contato);
-
-                // Reexibe os contatos
-                exibeContatos();
-
-                // Limpa o formulario
-                $("#form-contato")[0].reset();
-            });
-
-
-                // Limpa o formulario
-                $("#form-contato")[0].reset();
-            
-
-
-            // Oculta a mensagem de aviso após alguns segundos
-            $('#msg').bind("DOMSubtreeModified", function () {
-                window.setTimeout(function () {
-                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
-                        $(this).remove();
-                    });
-                }, 5000);
-            });
-
-           
-
-            exibeContatos();
-        }
-
-       function limparForm(){
-           // Limpa o formulario
-           $("#form-contato")[0].reset();
-
-       }
-    </script>
+    <script src="../js/global.js"></script>
+    <script src="../js/webconfig.js"></script>
+    <script src="../js/ongs.js"></script>
 
 <!-- Rodapé -->
 <footer class="footer-ong">

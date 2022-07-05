@@ -172,3 +172,16 @@ img.navbar-brand {
         padding-bottom: -200px;
     }
 }
+#user{
+    color: rgb(209, 209, 209);
+}
+.table-card{
+    margin-top: 10px;
+    padding: 9px;
+    background-color: rgb(26, 41, 28);
+    border: solid 1px white;
+    box-shadow: 0 0 1em rgb(72, 131, 113);
+}
+.table-card > table{
+    color:white;
+}
