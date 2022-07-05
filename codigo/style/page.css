@@ -182,6 +182,12 @@ img.navbar-brand {
     border: solid 1px white;
     box-shadow: 0 0 1em rgb(72, 131, 113);
 }
-.table-card > table{
+.table-card > table, tr{
     color:white;
+}
+#tableONGs_info{
+    color: white;
+}
+#tableONGs_paginate{
+    color: white !important;
 }
