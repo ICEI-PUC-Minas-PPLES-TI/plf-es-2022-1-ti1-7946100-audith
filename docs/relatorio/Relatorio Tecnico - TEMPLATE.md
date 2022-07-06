@@ -425,10 +425,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
+> CENÁRIOS UTILIZADOS NOS TESTE:
+  >Cadastro
+  >Login
+  >Links na página principal
+  >Formulário Aula de Libras
+  >Formulário ONGs
+  >Tradutor Libras
+  >Links para outras páginas
 ## Plano de Testes
 
 ......  COLOQUE AQUI O SEU TEXTO ......
