@@ -21,6 +21,8 @@ Também há uma grande dificuldade em encontrar ONGs na sua localização, crian
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+## Documentacao do projeto
+
 * [Processo de Design Thinking](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-audith/blob/master/docs/miro/PPLES-N%20-%20T1-G6%20-%20Dificuldade%20surdos%20com%20ouvintes%20falantes%20(1)%20(2).pdf)
 * [Relatório Técnico](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-audith/tree/master/docs/relatorio)
 * [Apresentação do Projeto](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-audith/blob/master/docs/apresentacao/Apresenta%C3%A7%C3%A3o%20PP.pdf)
