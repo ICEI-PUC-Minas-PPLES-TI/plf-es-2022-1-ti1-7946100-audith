@@ -1,8 +1,23 @@
-# Documentação do Projeto
+# Audith
 
-A documentação do projeto é composta pelos seguintes itens: 
- - [Processo de Design Thinking](concepcao/Processo%20Design%20Thinking%20-%20TEMPLATE.pdf)
- - [Relatório Técnico](relatorio/Relatorio%20Tecnico%20-%20TEMPLATE.md)
- - [Apresentação do Projeto](apresentacao/apresentacao%20-%20TEMPLATE.pptx)
- - [Vídeo de Demonstração](https://youtube.com)
+Nosso problema teve seu início focado com a dificuldade dos mudos e dos surdos, mas quando começamos a levantar os requisitos e estar lá na linha de frente conversando com os principais afetados, descobrimos que as pessoas que convivem e estão com esse público tem a maior dificuldade 
+	Com isso nossa forma de ajudar esse público nessa dor foi tentar entender suas maiores dificuldade, uma dessas dificuldades que foram encontradas foi na parte do diálogo, com isso percebemos que nem todo mundo tem acesso fácil e rápido a algum curso de libras, podendo assim dificultar a aprendizagem dessa língua tornando uma grande dor para nosso público, também achamos uma grande dor em encontrar essas pessoas que possam estar disponibilizando uma parte do seu tempo para ajudar o próximo ou passar um pouco do seu conhecimento.
+Também há uma grande dificuldade em encontrar ONGs na sua localização, criando assim um certo desconforto, já que muitas pessoas não possuem muito tempo para ficar procurando fontes de dados para encontrar a melhor ONG ou as ONGs que possui na sua cidade.   
 
+## Alunos integrantes da equipe
+
+* Arthur Jansen
+* Eduardo Augusto Brito
+* Isabelle Cristine 
+* Otavio Julio
+* Rodrigo Diniz
+
+
+## Professores responsáveis
+
+* João Luiz Silva Barbosa
+* Simone Alves Nogueira
+
+## Instruções de utilização
+
+Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
