@@ -161,8 +161,7 @@ Durante o processo de execução e andamento, foi utilizado o método ágil SCRU
 
 
 
-| Membro |Descrição
-do artefato |
+| Membro |Descrição do artefato |
 
 
 
