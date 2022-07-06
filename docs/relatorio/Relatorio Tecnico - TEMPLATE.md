@@ -1,225 +1,112 @@
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
+Projeto
+Audith - Projeto para surdos e mudos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Curso
+Engenharia de software
 
-`CURSO` 
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
+Participantes
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
-# Estrutura do Documento
+Arthur Jansen
+Eduardo Augusto Brito
+Isabelle Cristine 
+Otavio Julio
+Rodrigo Diniz
+
+
+Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
-  - [Participantes](#participantes)
+- [Participantes](#participantes)
 - [Estrutura do Documento](#estrutura-do-documento)
 - [Introdução](#introdução)
-  - [Problema](#problema)
-  - [Objetivos](#objetivos)
-  - [Justificativa](#justificativa)
-  - [Público-Alvo](#público-alvo)
+- [Problema](#problema)
+- [Objetivos](#objetivos)
+- [Justificativa](#justificativa)
+- [Público-Alvo](#público-alvo)
 - [Especificações do Projeto](#especificações-do-projeto)
-  - [Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
-  - [Histórias de Usuários](#histórias-de-usuários)
-  - [Requisitos](#requisitos)
-    - [Requisitos Funcionais](#requisitos-funcionais)
-    - [Requisitos não Funcionais](#requisitos-não-funcionais)
-  - [Restrições](#restrições)
-- [Projeto de Interface](#projeto-de-interface)
-  - [User Flow](#user-flow)
-  - [Wireframes](#wireframes)
-- [Metodologia](#metodologia)
-  - [Divisão de Papéis](#divisão-de-papéis)
-  - [Ferramentas](#ferramentas)
-  - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
-- [Projeto da Solução](#projeto-da-solução)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Arquitetura da solução](#arquitetura-da-solução)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
-- [Referências](#referências)
+- [Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
+- [Histórias de Usuários](#histórias-de-usuários)
+- [Requisitos](#requisitos)
+ - [Requisitos Funcionais](#requisitos-funcionais)
+ - [Requisitos não Funcionais](#requisitos-não-funcionais)
+ - [Restrições](#restrições)
+ - [Projeto de Interface](#projeto-de-interface)
+ - [User Flow](#user-flow)
+ - [Wireframes](#wireframes)
+ - [Metodologia](#metodologia)
+ - [Divisão de Papéis](#divisão-de-papéis)
+ - [Ferramentas](#ferramentas)
+ - [Controle de Versão](#controle-de-versão)
+ - [Projeto da Solução](#projeto-da-solução)
+ - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+ - [Arquitetura da solução](#arquitetura-da-solução)
+ - [Avaliação da Aplicação](#avaliação-da-aplicação)
+ - [Plano de Testes](#plano-de-testes)
+ - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
+ - [Registros de Testes](#registros-de-testes)
+ - [Referências](#referências)
 
 
-# Introdução
+Introdução do Problema
+Nosso problema teve seu início focado com a dificuldade dos mudos e dos surdos, mas quando começamos a levantar os requisitos e estar lá na linha de frente conversando com os principais afetados, descobrimos que as pessoas que convivem e estão com esse público tem a maior dificuldade 
+	Com isso nossa forma de ajudar esse público nessa dor foi tentar entender suas maiores dificuldade, uma dessas dificuldades que foram encontradas foi na parte do diálogo, com isso percebemos que nem todo mundo tem acesso fácil e rápido a algum curso de libras, podendo assim dificultar a aprendizagem dessa língua tornando uma grande dor para nosso público, também achamos uma grande dor em encontrar essas pessoas que possam estar disponibilizando uma parte do seu tempo para ajudar o próximo ou passar um pouco do seu conhecimento.
+Também há uma grande dificuldade em encontrar ONGs na sua localização, criando assim um certo desconforto, já que muitas pessoas não possuem muito tempo para ficar procurando fontes de dados para encontrar a melhor ONG ou as ONGs que possui na sua cidade.   
 
-## Problema
+Objetivos do trabalho		
+Um dos nossos objetivos foi tentar ajudar ao máximo nosso público alvo que seria as pessoas que convivem com surdos ou mudos, por que são elas as pessoas que mais necessitam dessa ajuda elas possuem a maior dor que seria o diálogo.
+Após descobrir realmente o que seria a real necessidade/dor do usuário, desenvolvemos um sistema web aberto para todos que desejam participar, esse sistema tem como principal objetivo o diálogo, com esse objetivo foi desenvolvido uma uma área de tradução em libras podendo traduzir qualquer palavra ou frase que desejar, após escolher a frase que deseja traduzir aparecerá um avatar 3D para auxiliar você nessa tradução, podendo aprender como dialogar com a pessoa também podendo tirar sua dúvida se esse gesto está correto ou incorreto.
+Nosso segundo objetivo foi tentar ajudar aquelas pessoas que buscam algumas aulas de libras, para isso foi criado uma área no nosso sistema que auxiliam as pessoas a arrumar alguém para disponibilizar um tempo para te auxiliar no seu aprendizado, assim tornando mais fácil o jeito de se encontrar alguém.
+Também foi criado uma área para encontrar as ONGs que possuem na sua cidade, contendo um meio de contato, nome, e localização tornando mais fácil ser encontrada ajudando as pessoas que não possuem muito tempo para disponibilizar para uma pesquisa mais cansativa.
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Importância e motivação para desenvolver esta aplicação
+	Nossa principal motivação foi querer ajudar essas pessoas a conseguir se comunicar com seu cliente também podendo ser com aquelas pessoas que você ama e tem dificuldade de dialogar, também tem a importância de querer disponibilizar ajuda para todas pessoas sem exceção.
+	Também vimos a escassez de sistemas que facilitam a vida dessas pessoas, podendo também não ser uma dificuldade e sim falta de tempo de para obter essas pesquisar, com isso ficamos motivados em desenvolver algo para essas pessoas.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
-## Objetivos
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-## Justificativa
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-## Público-Alvo
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Público-Alvo
+1- Empresas e estabelecimentos: O site possibilita a ajuda e na comunicação com deficientes auditivos nas empresas, assim oferecendo uma inclusão á todos.
+2- Funcionários e trabalhadores: O site tem como função ajudar eles a se comunicarem facilmente no dia-a-dia com esses deficientes.
+ 3- Usuários que possuem dificuldade em se comunicar: O site também tem como objetivo ajudar aqueles que desejam aprender libras para ter uma convivência melhor com todos ao seu redor. 
  
-# Especificações do Projeto
+Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
-## Personas e Mapas de Empatia
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
-
-## Histórias de Usuários
+Miro
+Git & GitHub
+VSCode
+HTML, CSS e JavaScript
+Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Recepcionista de hotel  | Mostrar por imagem traduzido para libras o que digito  | Para que eu possa alugar os quartos e dar informações com velocidade |
+| Vendedor de loja      | Aprender libras  | Para que eu possa vender meus produtos para eles |
+| Estagiário na clínica médica       | Achar ongs  | Conseguir ajudar pessoas com deficiências auditivas a achar rapidamente ongs especializadas. |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
+Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre ongs | BAIXA |
+|RF-002| Permitir que o usuário cadastre sua conta | ALTA | 
+|RF-003| Consiga traduzir textos   | MÉDIA |
 
 
-### Requisitos não Funcionais
+
+
+Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RNF-002| Deve processar requisições na tela de tradução em no máximo 12s |  BAIXA |
+|RNF-003| Deve levar cerca de 1s para abrir as telas do software |  BAIXA |
+|RNF-004| Deve ser capaz bloquear senhas erradas colocadas no login 12s |  BAIXA | 
 
 
-## Restrições
+Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
@@ -227,15 +114,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|03| Deve funcionar em mobile ou web  |
+|04| Não pode ser lento ou muito pesado para dispositivos fracos   |
 
 # Projeto de Interface
 
@@ -245,75 +125,73 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > foram elaboradas de forma a atender os requisitos funcionais, não
 > funcionais e histórias de usuário abordados nas [Especificações do
 > Projeto](#especificações-do-projeto).
-
 ## User Flow
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Wireframe:https://www.canva.com/design/DAFFl4lf8Bg/xSX_7uy7Jf1yn0taV9iRQQ/view?utm_content=DAFFl4lf8Bg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+
+Os Wireframes foram elaborados tendo em vista a necessidade de se desenvolver uma interface objetiva e intuitiva a fim de atender às necessidades de nossas personas. Para tanto, utilizamos padrões e símbolos já conhecidos popularmente na Web como forma de facilitar o entendimento do usuário. Buscamos também elaborá-los de tal forma que a interface pudesse ser construída de forma simples a partir de HTML, CSS e JavaScript.
+
+
+
+
+
+
+
 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+. Ao longo do processo de desenvolvimento do site foi utilizado o método de Design Thinking para definição das principais ideias iniciais, delimitação do escopo e os levantamentos de requisitos.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Durante o processo de execução e andamento, foi utilizado o método ágil SCRUM para todas as fases de desenvolvimento.
+
+ O andamento do site foi utilizado ferramentas internas do GitHub.
+
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+.
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+
+
+
+| Membro |Descrição
+do artefato |
+
+
+
+
+|--------|-----------------------|
+
+
+| Arthur jansen | Templates, tela de introdução |
+
+
+| Eduardo brito | Tela de login, api de traduzir |
+
+
+| Isabelle cristine | Tela de cadastro de aulas |
+
+
+| Otavio mendes| Tela de user e sobre|
+
+
+| Rodrigo diniz |Tela de show de aulas e cadastro de empresas |
+
+
+
+
+
+
+
+
+
 
 
 ## Ferramentas
@@ -322,108 +200,41 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVOA2G8TE=/| 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-audith| 
+|Pesquisa  | Google forms| https://docs.google.com/forms/d/e/1FAIpQLSenycsSBtt9E1XK2xYCv-rQK-gLzFyc_SwYC0ncRFqHmOMsUA/viewform | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A ferramenta de controle de versão adotada no desenvolvimento do site  foi o Git, sendo que o Github foi utilizado para hospedagem do repositório upstream.
+O projeto segue a seguinte convenção para o nome de branchs:
+master: versão estável já testada do software
+unstable: versão já testada do software, porém instável
+testing: versão em testes do software
+dev: versão de desenvolvimento do software
+Em relação aos commits, o projeto adota a seguinte convenção para etiquetas:
+docs: atualização de documentação
+style: atualizações que não afetam a funcionalidade da aplicação
+refactor: refatoração de alguma funcionalidade do código
+perf: melhoria de performance
+test: criação de testes
+reverts: reverção de um commit anterior
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+Tecnologias Utilizadas
 
-# **############## SPRINT 1 ACABA AQUI #############**
+Foi usadas as seguintes tecnologias , html, css e js para a parte do sistema web 
+Para versionamento foi usado o github, também para obter um desenvolvimento mais rápido e objetivo foi usado a metodologia scrum, também utilizado o kanban e como editor de texto foi usado o visual studio code pois ele é um editor gratuito e muito bom. 
 
 
-# Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Tecnologias Utilizadas
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
-## Arquitetura da solução
+Arquitetura da solução
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
 
 # Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > CENÁRIOS UTILIZADOS NOS TESTE:
   >Cadastro
@@ -433,47 +244,120 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
   >Formulário ONGs
   >Tradutor Libras
   >Links para outras páginas
+.
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+PLANO DE TESTES DE USABILIDADE:
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+Público envolvido nos testes:
+Familiares dos criadores do projeto;
+Amigos dos criadores do projeto;
+#	Objetivos a serem validados	Tarefas a serem desempenhadas
+1	Cadastro	  Se cadastrar no site
+2	Login	  Fazer login no site
+3	Links na página principal	  Clicar nos links na página inicial
+4	Formulário Aula de Libras	   Preencher o formulário na página “Cadastro aulas”
 
-## Ferramentas de Testes (Opcional)
+#	Objetivos a serem validados	Tarefas a serem desempenhadas
+5	Formulário ONGs	     Preencher o formulário na página “Cadastro ONGs”
+6	Tradutor Libras	  Digitar palavras no tradutor de libras	
+7	Opções de cliques na página	  Clicar em todos as opções de cliques no site
+8	Cliques na página	  Clicar nas abas para navegar no site
+9	Login	Tentar logar sem ter se cadastrado
+10	Links na página “sobre”	Testar os nomes na página “sobre”
 
-......  COLOQUE AQUI O SEU TEXTO ......
+PLANO DE TESTES DE SOFTWARE: 8 FUNCIONAIS E 2 NÃO FUNCIONAIS
+Cenários de teste e passos a serem realizados para avaliar a entrega. 
 
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+#	Cenário	Pré-Condições	Ações	Resultados Esperados
+1	Acesso página	Teste Funcional	Clicar “cadastro aulas”	Após acessar a aba “cadastro aulas”, ira para outra pagina falando sobre se cadastrar nas aulas de libras 
+2	Acesso página	Teste Funcional	Clicar em Cadastro ONGs	Após acessar a aba “Cadastro ONGs”, ira para outra pagina falando sobre se cadastrar e fazer parte da equipe AUDITH
+3	Acesso página	Teste Funcional	Cadastrar na página inicial	Aparecer “Usuário salvo com sucesso” e retornar a tela de login
+4	Acesso página	Teste Funcional	Clicar em Traduzir, clicar no botão de sinais, e utilizar o tradutor de sinais	Irá aparecer um personagem, quando digitado alguma coisa, ele irá traduzir o que foi escrito e representará em Libras
 
+#	Cenário	Pré-Condições	Ações	Resultados Esperados
+5	Acesso página	Teste Funcional	Acessar a aba “sobre”	Após acessar a aba “sobre”, ira para outra pagina falando sobre o projeto 
+6	Acesso página	Teste Funcional	Clica em qualquer aba do site e logo depois clicar em “início”	É esperado que o site retorne para a página inicial e principal do site	
+7	Acesso página	Teste Funcional	Ir em “Cadastro ONGs”, preencher o formulário e clicar em “Limpar Form”	É esperado que tudo que foi digitado no formulário será apagado
+8	Acesso página	Teste Funcional	Clicar em ícones de link na página “Inicio”	É esperado que abra um link em nova guia
+1.1	Segurança	Teste não funcional	Tentar logar sem ter se cadastrado	É esperado que apareça uma mensagem de “Usuário e senha não registrados”
+1.2	Segurança	Teste não funcional	Escrever a senha sem aparecer as letras digitadas	É esperado que o site não mostra a senha e substituindo os caracteres digitados por um “*”(Asterisco)
+				
 ## Registros de Testes
+REGISTRO DE TESTES DE SOFTWARE:  RELATÓRIO
+TESTE 1:
+AÇÃO: Clicar “Cadastro aulas”
+RESULTADO ESPERADO:  Após acessar a aba “cadastro aulas”, ira para outra pagina falando sobre se cadastrar nas aulas de libras
+RESULTADO: PÁGINA MOSTRANDO O CADASTRO DAS AULAS DE LIBRAS
 
-......  COLOQUE AQUI O SEU TEXTO ......
+TESTE 2:
+AÇÃO:  Clicar em “Cadastro ONGs”
+RESULTADO ESPERADO:  Após acessar a aba “Cadastro ONGs”, ira para outra página cadastro e fazer parte da equipe AUDITH
+RESULTADO: PÁGINA MOSTRANDO O CADASTRO PARA FAZER PARTE DA EQUIPE AUDITH
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+TESTE 3:
+AÇÃO:  Cadastrar na página inicial
+RESULTADO ESPERADO:  Aparecer “Usuário salvo com sucesso” e retornar a tela de login
+RESULTADO: “Usuário salvo com sucesso. Proceda com o login para
+
+TESTE 4:
+AÇÃO:  Clicar em Traduzir, clicar no botão de sinais, e utilizar o tradutor de sinais
+RESULTADO ESPERADO: Irá aparecer um personagem, quando digitado alguma coisa, ele irá traduzir o que foi escrito e representará em Libras
+RESULTADO: Apareceu personagem, quando digitado alguma coisa, ele irá traduzir o que foi escrito e representará em Libras
+
+TESTE 5:
+AÇÃO:  Acessar a aba “sobre”.
+RESULTADO ESPERADO:  Após acessar a aba “sobre”, ira para outra pagina falando sobre o projeto.
+RESULTADO: Tela “sobre” apresentando informações do projeto.
+
+TESTE 6:
+AÇÃO:  Clica em qualquer aba do site e logo depois clicar em “início”
+RESULTADO ESPERADO:  É esperado que o site retorne para a página inicial e principal do site
+RESULTADO: Tela de início
+
+TESTE 7:
+AÇÃO:  Ir em “Cadastro ONGs”, preencher o formulário e clicar em “Limpar Form”
+RESULTADO ESPERADO: É esperado que tudo que foi digitado no formulário será apagado
+RESULTADO: Tudo escrito é apagado
+
+TESTE 8:
+AÇÃO:  Clicar em ícones de link na página “Inicio”
+RESULTADO ESPERADO: É esperado que abra um link em nova guia
+RESULTADO: Link aberto em uma nova guia
+Link Aberto: https://rodrigomagnorm.jusbrasil.com.br/artigos/1176514129/as-dificuldades-da-pessoa-surda-na-sociedade-brasileira#:~:text=A%20principal%20dificuldade%20dos%20surdos,acesso%20%C3%A0%20uma%20boa%20educa%C3%A7%C3%A3o
+
+REGISTRO DE TESTES DE USABILIDADE: Problemas e erros
+
+PROBLEMA/ERRO 1:
+“Quando Clico no ponto de exclamação na parte de cima da página, ele não leva para nenhuma página”
+Proposta: 
+“Não sei bem como funciona, mas deve alterar alguma informação no código”
+
+PROBLEMA/ERRO 2:
+“Quando vou na parte de Cadastro ONGs, não consigo escrever na parte ID”
+Proposta: 
+“Deve ser algum erro no código do site e deve alterar as funções e colocar igual as outras partes de escrever no formulário”
+
+REGISTRO DE TESTES: DIN MICA COM JAVASCRIPT  
+
+#	Cenário	Pré-Condições	Ações	Resultados Esperados
+1	Login	Teste Funcional JavaScript	Declarar conjunto inicial de contatos no login já cadastrados	Mensagem na tela “Logado com sucesso, Bem-vindo ao sistema ${username}”
+2	Cadastro	Teste Funcional JavaScript	Alterar contato	Mensagem na tela” Contato alterado com sucesso”
+3	Tradutor para Libras	Teste Funcional
+JavaScript	Ir na aba” Traduzir”, clicar no botão de sinais.	Aparecer um software liberado pelo governo mostrando um personagem traduzindo tudo que o usuário escrever no campo de texto.
+
+
+
 
 
 # Referências
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+https://tecnoblog.net/
+https://www.handtalk.me/br/aplicativo/
+https://culturasurda.net/
+https://olhardigital.com.br/2021/02/15/tira-duvidas/icom-promove-inclusao-atraves-de-traducao-simultanea-em-libras/
+
+ BRADDOCK, David; PARISH, Susan. An institutional history of disability. In: ALBRECHT, Gary; SEELMAN, Katherine; BURY, Michael (Eds.). Handbook of disability studies. California: Sage Publications, 2001. p. 11-68.
+
