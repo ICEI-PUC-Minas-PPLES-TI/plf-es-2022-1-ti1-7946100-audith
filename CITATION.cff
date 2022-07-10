@@ -1,0 +1,29 @@
+cff-version: 1.0.1
+message: Nosso sistema veio para ajudar a comunicação entre as pessoas com essa dificuldade
+title: Audith Surdos e mudos
+authors:
+  - family-names: Brito
+    given-names: Eduardo
+  - family-names: Jansen
+    given-names: Arthur
+  - family-names: Cristine
+    given-names: Isabelle
+  - family-names: Julio
+    given-names: Otavio
+  - family-names: Diniz
+    given-names: Rodrigo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva Barbosa
+    given-names: Joao Luiz 
+  - name-suffix: Professora
+    affiliation: PUC Minas
+    family-names: Alves Nogueira
+    given-names: Simone
+keywords:
+  - Ajuda de Surdos e mudos
+  - Sistema
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7946100-audith/
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-10
