@@ -156,41 +156,15 @@ Durante o processo de execução e andamento, foi utilizado o método ágil SCRU
 
 ## Divisão de Papéis
 
-.
 
 
-
-
-| Membro |Descrição
-do artefato |
-
-
-
-
+| Membro |Descrição do artefato |
 |--------|-----------------------|
-
-
 | Arthur jansen | Templates, tela de introdução |
-
-
 | Eduardo brito | Tela de login, api de traduzir |
-
-
 | Isabelle cristine | Tela de cadastro de aulas |
-
-
 | Otavio mendes| Tela de user e sobre|
-
-
 | Rodrigo diniz |Tela de show de aulas e cadastro de empresas |
-
-
-
-
-
-
-
-
 
 
 
